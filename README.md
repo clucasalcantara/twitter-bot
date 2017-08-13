@@ -1,5 +1,6 @@
 # NodeBotsSalvador Twitter Bot
-I'm a Twitter bot for #NodeBotsSalvador https://twitter.com/nodebotsalvador
+I'm a Twitter bot for #NodeBotsSalvador https://twitter.com/nodebotsalvador.
+
 This document should be the ultimate guide on running and specs about the application source code.
 
 ## Index
@@ -23,7 +24,7 @@ This document should be the ultimate guide on running and specs about the applic
 - **YARN** >= 0.27.5.
 - **PM2**
 
-### Operating the docker environment
+### Operating the environment
 
 #### Starting services
 
