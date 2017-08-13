@@ -3,6 +3,8 @@ I'm a Twitter bot for #NodeBotsSalvador https://twitter.com/nodebotsalvador.
 
 This document should be the ultimate guide on running and specs about the application source code.
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ## Index
 
 * [Table of Contents]()
