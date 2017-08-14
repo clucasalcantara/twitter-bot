@@ -1,0 +1,3 @@
+module.exports = {
+  RETWEETS_WAIT_TIME_MILLESECONDS: 1800000
+}
