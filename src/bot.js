@@ -6,8 +6,8 @@ const twit = new Twit(twitterKey)
 
 const runRetweet = () => {
   searchTweets(twit, twitterQueryParams)
-    .then(data => retweets(twit, data))
-    .catch(err => console.log(err))
+   .then(data => retweets(twit, data))
+   .catch(err => console.log(err))
 }
 
 runRetweet()
