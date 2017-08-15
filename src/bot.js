@@ -1,12 +1,12 @@
 const Twit = require('twit')
 const {twitterKey, twitterQueryParams, twitterTime} = require('./config')
-const {searchTweets} = require('./actions')
+const {searchTweets, retweets} = require('./actions')
 
 const twit = new Twit(twitterKey)
 
 const runRetweet = () => {
   searchTweets(twit, twitterQueryParams)
-    .then(d => console.log(d))
+    .then(data => retweets(twit, data))
     .catch(err => console.log(err))
 }
 

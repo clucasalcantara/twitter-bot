@@ -1,3 +1,4 @@
 module.exports = {
-  searchTweets: require('./search-tweets')
+  searchTweets: require('./search-tweets'),
+  retweets: require('./retweets')
 }

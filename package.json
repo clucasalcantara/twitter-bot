@@ -7,8 +7,7 @@
   "author": "Mateus Malaquias <mateusmalaquiasdev@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "",
-    "start": "node index.js",
+    "start": "pm2 start index.js",
     "test": ""
   },
   "devDependencies": {
